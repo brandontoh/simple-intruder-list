@@ -4,11 +4,8 @@
 
 ### union-based
 
-to count the columns: 
+to count the columns and find which columns accept type string (up to 30): 
 - run payloads from union-based-count-cols.txt
-
-to find which columns accept string: 
-- choose the payloads according to the number of columns available
 
 *note: if only the payloads with `FROM DUAL` pass, then you already know that oracle database is used*
 
